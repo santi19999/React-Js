@@ -1,5 +1,13 @@
+import Formulario from './components/Formulario';
+
 const App = () => {
-	return <div></div>;
+	return (
+		<div className="container">
+			<h1>Formularios</h1>
+			{/* <FormNoControlado /> */}
+			<Formulario />
+		</div>
+	);
 };
 
 export default App;
